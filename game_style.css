@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+    text-align:center;
+}
+
+h2{
+    background-color: lightgreen;
+    border:solid 2px black;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: darkgrey;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    justify-content:flex-end;
+}
+
+#gameBoard
+{
+    border-style:solid;
+}
+
+#gamingFacts{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding-top: 10%;
+    margin-left:10%;
+    margin-right:1%;
+    width:27%;
+    background-color: lightskyblue;
+}
+
+#showFact{
+    font-size: large;
+}
+
+#ansBox{
+    background-color: lightgreen;
+}
+
+#answerButton{
+    padding: 10px 5px 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#answerButton:hover{
+    transition: 0.3s;
+    color:white;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#score{
+    background-color: lightgreen;
+    margin-top:20px;
+    font-size:large;
+    border: 2px solid black;
+}
+
+#scoreValue{
+    margin-right:10%;
+}

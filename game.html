@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game_style.css">
+    <link rel="icon" type="image/x-icon" href="snakeLogo.png">
+    <title>Snake Classic</title>
+</head>
+<body>
+    <h2>Snake - Classic</h2>
+
+    <div class ="container">
+
+        <div>
+            <canvas id="gameBoard" width="600" height="550"></canvas>
+        </div>
+
+        <div id="gamingFacts">
+            <h1>Random Game Facts</h1>
+            <p id="showFact"></p>
+            <p id="ansBox"></p>
+            <button id="answerButton">Generate</button>
+        </div>
+
+    </div>
+
+    <div id="score">
+        Score: <span id="scoreValue"></span>
+        High Score: <span id="highScore"></span>
+    </div>
+    <script src="game_logic.js"></script>
+</body>
+</html>
